@@ -1,0 +1,32 @@
+ID: 5733be284776f41900661182, Position in den Ergebnissen: 0, Frage: To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?,  Ergebnisse: [
+    {"id":"5733be284776f41900661182","question":"To whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?","similarity":0.827379220724727},
+    {"id":"5733849bd058e614000b5c56","question":"In what year was Father Edward Sorin given two years to create a college?","similarity":0.791451133234883},
+    {"id":"573398164776f41900660e21","question":"Which congregation is in charge of the Old College at Notre Dame?","similarity":0.790313223485993},
+    {"id":"0000be284776f41900661182","question":"xTo whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?","similarity":0.785426210899271}]
+
+
+ID: 5733ae924776f41900661014, Position in den Ergebnissen: 0, Frage: How many incoming students did Notre Dame admit in fall 2015?,  Ergebnisse: [
+    {"id":"5733ae924776f41900661014","question":"How many incoming students did Notre Dame admit in fall 2015?","similarity":0.905254132618744},
+    {"id":"0000be284776f41900661183","question":"xHow many incoming students did Notre Dame admit in fall 2015?","similarity":0.884095067071227}]
+
+
+
+ID: 5733b3d64776f419006610a3, Position in den Ergebnissen: 18, Frage: Gurian created what in 1939 at Notre Dame?,  Ergebnisse: [
+    {"id":"5733b496d058e614000b60ce","question":"What caused many intellectual Catholics to leave europe in the 1930s?","similarity":0.860789366282108},
+    {"id":"57338a51d058e614000b5cf0","question":"Which person became vice-president of Notre Dame in 1933?","similarity":0.846037395771568},
+    {"id":"57338724d058e614000b5c9f","question":"What type of education was pushed at Notre Dame before its embracing of national standards?","similarity":0.845642477371084},{"id":"0000be284776f41900661184","question":"xGurian created what in 1939 at Notre Dame?","similarity":0.831088232907825},
+    {"id":"5733926d4776f41900660d8e","question":"Around the time that Rev. Cavanaugh became president of Notre Dame by how much did the undergrad student body of Notre Dame increase?","similarity":0.827180776308747},
+    {"id":"5733849bd058e614000b5c56","question":"In what year was Father Edward Sorin given two years to create a college?","similarity":0.824135211563359},
+    {"id":"0000be284776f41900661183","question":"xHow many incoming students did Notre Dame admit in fall 2015?","similarity":0.822218420784772},
+    {"id":"5733ad384776f41900660fec","question":"How many stories tall is the main library at Notre Dame?","similarity":0.821091854662007},
+    {"id":"5733974d4776f41900660e17","question":"When did John Jenkins become the president of Notre Dame?","similarity":0.820082083322481},
+    {"id":"573393e1d058e614000b5dc2","question":"What type of educational institute is Hesburgh given credit for creating at Notre Dame?","similarity":0.818822627951203},
+    {"id":"57339a5bd058e614000b5e91","question":"How many halls are at Notre Dame that house students?","similarity":0.818229265078494},
+    {"id":"5733a55a4776f41900660f3a","question":"In 1899 Notre Dame formed which college?","similarity":0.817937431271537},
+    {"id":"573388ce4776f41900660cc3","question":"Catholic people identified with Notre Dame, what religious group did people feel Yale represented?","similarity":0.816724400126311},{"id":"0000be284776f41900661182","question":"xTo whom did the Virgin Mary allegedly appear in 1858 in Lourdes France?","similarity":0.81658463199143},
+    {"id":"5733b5344776f419006610dd","question":"Who was the president of Notre Dame in 2012?","similarity":0.815276219362216},
+    {"id":"573383494776f41900660c41","question":"What caused Notre Dame to become notable in the early 20th century?","similarity":0.814955054094293},
+    {"id":"573383e94776f41900660c5a","question":"Where among US universities does Notre Dame rank?","similarity":0.81466955170271},
+    {"id":"5733bf84d058e614000b61be","question":"When did the Scholastic Magazine of Notre dame begin publishing?","similarity":0.814151977793216},
+    {"id":"5733b3d64776f419006610a3","question":"Gurian created what in 1939 at Notre Dame?","similarity":0.813575791301223}
+    ]

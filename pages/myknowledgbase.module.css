@@ -1,0 +1,72 @@
+.fullscreenDiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;  /* Space between child elements */
+  }
+  
+  .header1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+    color: #555;
+  }
+  .responseContainer {
+    display: flex;
+    justify-content: center; /* Adds space between the boxes */
+    flex-wrap: nowrap; /* Prevents items from wrapping onto the next line */
+    margin-top: 20px;
+  }
+
+  .responseBox {
+
+    margin-top: 20px;
+    padding: 35px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    max-width: 30%;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 1%; 
+  }
+
+.textChunksContainer {
+    margin-top: 30px;
+    display: flexbox;
+    overflow: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+   
+}
+
+.textChunkCard {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 64%;
+    border: solid 2px black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.textChunkImage img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+  border: #555 solid 1px;
+}

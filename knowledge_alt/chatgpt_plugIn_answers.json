@@ -1,0 +1,478 @@
+[
+    {
+        "id": "7ff7107c-7179-4a8c-8826-670ef09f843a",
+        "title": "Slack - Querying Slack",
+        "context": "Slack is a widely-used communication platform for teams. If you're part of a remote team and need to locate a specific message from past conversations, you no longer have to sift through endless Slack chats. With this plugin, ChatGPT allows you to query Slack directly, making your search fast and efficient.",
+        "question": "Can this plugin help me find specific messages in Slack?",
+        "answers": { "text": ["Yes, this plugin allows you to query Slack directly to locate specific messages, making your search fast and efficient."], "answer_start": [130] }
+    },
+    {
+        "id": "898000eb-fb43-4fab-9272-1006e6115848",
+        "title": "Zapier - Interact with 5000+ apps",
+        "context": "Zapier connects different web apps to automate repetitive tasks. As a project manager juggling multiple productivity tools like Google Sheets and Docs, you can now simplify your life. This plugin integrates with ChatGPT to allow you direct interaction with over 5000+ apps, boosting your workflow and efficiency.",
+        "question": "How many apps can I interact with using the Zapier plugin?",
+        "answers": { "text": ["You can interact with over 5000+ apps using the Zapier plugin."], "answer_start": [154] }
+    },
+    {
+        "id": "17a31faa-4aa8-4ea9-921f-16c4f7a3d7c9",
+        "title": "Expedia - Save time planning vacations",
+        "context": "Expedia is a go-to platform for booking travel arrangements. Trip planning can often feel overwhelming with the multiple platforms you have to navigate. With this plugin, you can manage your entire journey—flights, stays, and activities—using ChatGPT, making the process smooth and hassle-free.",
+        "question": "Can I manage my entire journey using this plugin?",
+        "answers": { "text": ["Yes, with this plugin, you can manage your entire journey—flights, stays, and activities—using ChatGPT."], "answer_start": [133] }
+    },
+    {
+        "id": "18f2cdd8-afd2-46a5-bbe6-38b23364cb93",
+        "title": "Klarna Shopping - Search and compare prices",
+        "context": "Klarna is an online payment and shopping service. When you're in the market for a new gadget, like a laptop, you want to make sure you're getting the best deal. This plugin integrates with ChatGPT to allow you to search and compare prices across thousands of online retailers, helping you save time and money.",
+        "question": "What does the Klarna plugin allow me to do?",
+        "answers": { "text": ["The Klarna plugin allows you to search and compare prices across thousands of online retailers."], "answer_start": [133] }
+    },
+    {
+        "id": "0722c074-6b55-4e7f-9d05-fea60d9296da",
+        "title": "Vogue - Search through Vogue articles",
+        "context": "Vogue is a renowned fashion and lifestyle magazine. For those passionate about fashion, you no longer need to browse Vogue's website manually. This plugin allows you to search for Vogue articles directly through ChatGPT, making your fashion research both enjoyable and efficient.",
+        "question": "Can I search Vogue articles using this plugin?",
+        "answers": { "text": ["Yes, this plugin allows you to search for Vogue articles directly through ChatGPT."], "answer_start": [126] }
+    },
+    {
+        "id": "0fbf4f2c-8f6e-4044-8a9d-944ee595f180",
+        "title": "TODO plugin - Manage a TO-DO list",
+        "context": "Managing tasks effectively is crucial for any busy individual. As a busy entrepreneur, you can now manage your to-do list without leaving ChatGPT, ensuring that you stay on top of your tasks.",
+        "question": "Can I manage my to-do list within ChatGPT?",
+        "answers": { "text": ["Yes, as a busy entrepreneur, you can manage your to-do list without leaving ChatGPT."], "answer_start": [77] }
+    },
+    {
+        "id": "0e109363-aa5c-49b4-9540-f8405fa7bd8d",
+        "title": "Lowes - Find the right tools for home building needs",
+        "context": "Lowes is a retail company specializing in home improvement. For DIY enthusiasts planning new projects, you can now search for the right tools and materials directly from ChatGPT, streamlining your planning process.",
+        "question": "Can I search for home improvement tools through ChatGPT?",
+        "answers": { "text": ["Yes, you can search for the right tools and materials directly from ChatGPT."], "answer_start": [90] }
+    },
+    {
+        "id": "4daff1c6-4864-4aee-b20e-3f75022b3a8d",
+        "title": "Speechki - Turn text into audio",
+        "context": "Text-to-speech technology can make study sessions more engaging. If you're a student tired of reading through notes, this plugin can transform your text into audio, diversifying your study methods.",
+        "question": "What can this plugin do for a student tired of reading?",
+        "answers": { "text": ["The plugin can transform your text into audio, making study sessions more engaging."], "answer_start": [79] }
+    },
+    {
+        "id": "865e17f6-5382-43b5-980c-219a55be389d",
+        "title": "FigGPT - Design using Figma in ChatGPT",
+        "context": "Figma and Figjam are popular platforms for digital design. This plugin allows designers to perform various tasks like generating ideas and populating components with sample data, all within the Figma or Figjam environment.",
+        "question": "What tasks can a designer perform with this plugin?",
+        "answers": { "text": ["Designers can perform tasks like generating ideas and populating components with sample data."], "answer_start": [87] }
+    },
+    {
+        "id": "b42fc633-0e07-4f36-b8a1-ab4cf76f4d01",
+        "title": "Noteable - Create notebooks in Python, SQL, and Markdown",
+        "context": "Working with multiple languages and tools is a common challenge for data professionals. This plugin enables data scientists and analysts to create notebooks in Python, SQL, and Markdown without leaving ChatGPT, streamlining their workflow.",
+        "question": "Which languages can I create notebooks in using this plugin?",
+        "answers": { "text": ["You can create notebooks in Python, SQL, and Markdown."], "answer_start": [108] }
+    },
+    {
+        "id": "76deea20-f531-4b06-8991-ddfc30b093d3",
+        "title": "KAYAK - Plan & book your next trip",
+        "context": "KAYAK is a travel search engine that aggregates information from various sources. As a busy professional, streamline your vacation planning by using this plugin to book flights, hotels, and car rentals directly through ChatGPT.",
+        "question": "What can I book through the KAYAK plugin?",
+        "answers": { "text": ["You can book flights, hotels, and car rentals."], "answer_start": [126] }
+    },
+    {
+        "id": "82860c7c-8a8c-4cf2-941d-da4f6f57faaf",
+        "title": "LangChain Docs - Up-to-date info for the LangChain Python library",
+        "context": "LangChain is a Python library often used for language-related tasks. Developers can access up-to-date documentation and examples without leaving ChatGPT, making their workflow more efficient.",
+        "question": "What can developers access using the LangChain Docs plugin?",
+        "answers": { "text": ["Developers can access up-to-date documentation and examples for LangChain."], "answer_start": [64] }
+    },
+    {
+        "id": "351807e6-8ddb-439a-9df7-4a0432d8b517",
+        "title": "Weather report - Get up-to-date weather data",
+        "context": "Weather conditions can greatly affect outdoor events. This plugin allows you to quickly check the current weather or future forecasts for any city, aiding in your event planning.",
+        "question": "How can this plugin assist with outdoor event planning?",
+        "answers": { "text": ["This plugin allows you to quickly check the current weather or future forecasts for any city, aiding in your event planning."], "answer_start": [56] }
+    },
+    {
+        "id": "44c4ef4b-b9df-45f6-b146-557bbeebdca4",
+        "title": "Crypto Prices - Get the price on any crypto",
+        "context": "Cryptocurrency markets are known for their volatility. Stay informed on the latest prices of digital currencies without leaving ChatGPT, aiding your investment decisions.",
+        "question": "How can this plugin help me stay informed about cryptocurrency markets?",
+        "answers": { "text": ["Stay informed on the latest prices of digital currencies without leaving ChatGPT, aiding your investment decisions."], "answer_start": [46] }
+    },
+    {
+        "id": "4d86a323-e5ff-43c0-9463-ae1d50ab9933",
+        "title": "NBA - Up-to-date NBA standings & stats",
+        "context": "The NBA is a professional basketball league followed by millions. Keep up with the latest standings and stats for your favorite teams and players directly within ChatGPT.",
+        "question": "What kind of NBA information can I get using this plugin?",
+        "answers": { "text": ["Keep up with the latest standings and stats for your favorite teams and players directly within ChatGPT."], "answer_start": [53] }
+    },
+    {
+        "id": "c31aa851-cacb-459b-8b9d-52b0f7e54580",
+        "title": "Qdrant - Search through Qdrant’s documentation",
+        "context": "Qdrant is a service often used for search and recommendation systems. Developers can easily navigate through Qdrant’s documentation within ChatGPT, finding the needed information more quickly.",
+        "question": "How can developers benefit from this plugin?",
+        "answers": { "text": ["Developers can easily navigate through Qdrant’s documentation within ChatGPT, finding the needed information more quickly."], "answer_start": [58] }
+    },
+    {
+        "id": "d40f7c3d-026c-48ae-888f-8434b48ff8c3",
+        "title": "Open Table - Search and book restaurants",
+        "context": "Open Table is a popular platform for restaurant reservations. Make dining plans without leaving ChatGPT by searching for and booking your favorite restaurants.",
+        "question": "What can I do with the Open Table plugin?",
+        "answers": { "text": ["Make dining plans without leaving ChatGPT by searching for and booking your favorite restaurants."], "answer_start": [48] }
+    },
+    {
+        "id": "d5a7503d-57ee-4bb3-999d-46e223062251",
+        "title": "Zilliz Plugin - Search through your documentation",
+        "context": "Zilliz helps professionals manage large sets of documentation. You can now search through and interact with your documents directly within ChatGPT.",
+        "question": "How can Zilliz Plugin help professionals?",
+        "answers": { "text": ["You can now search through and interact with your documents directly within ChatGPT."], "answer_start": [51] }
+    },
+    {
+        "id": "203866d3-405c-4d34-90c1-c87e5fe7f2c4",
+        "title": "Wolfram - Access computation, math, curated knowledge, and real-time data",
+        "context": "Wolfram is known for its computational and data capabilities. Researchers can access a variety of tools and knowledge bases directly within ChatGPT.",
+        "question": "What types of capabilities does Wolfram offer?",
+        "answers": { "text": ["Wolfram is known for its computational and data capabilities."], "answer_start": [0] }
+    },
+    {
+        "id": "066c36d1-54aa-490d-b69d-0b82901f4a20",
+        "title": "Pricerunner - Get the perfect shopping suggestions",
+        "context": "Pricerunner is a shopping comparison service. Find the best deals on a wide range of products without leaving ChatGPT.",
+        "question": "What service does Pricerunner provide?",
+        "answers": { "text": ["Pricerunner is a shopping comparison service."], "answer_start": [0] }
+    },
+    {
+        "id": "4e58327d-a70c-4516-9429-2f9b62573f77",
+        "title": "DesignerGPT - Generate a website within ChatGPT",
+        "context": "Creating a website is a significant undertaking for any business. Generate a professional-looking website right within ChatGPT.",
+        "question": "How can DesignerGPT assist businesses?",
+        "answers": { "text": ["Generate a professional-looking website right within ChatGPT."], "answer_start": [56] }
+    },
+    {
+        "id": "d059e68f-bf41-42dc-9b5d-27d0bd3e6de2",
+        "title": "Milo Family AI - Turn any 20 minutes with your kids into magic",
+        "context": "Spending quality time with your kids is priceless. Transform those moments into magical experiences by planning engaging activities within ChatGPT.",
+        "question": "How can Milo Family AI make time with your kids more engaging?",
+        "answers": { "text": ["Transform those moments into magical experiences by planning engaging activities within ChatGPT."], "answer_start": [43] }
+    },
+    {
+        "id": "597ed2a7-f8a7-4b53-b9cc-bd0a01b480a3",
+        "title": "Chess - Play chess in ChatGPT",
+        "context": "Chess is a game of strategy and skill. Practice and improve your skills by playing chess directly within ChatGPT.",
+        "question": "How can this plugin help improve your chess skills?",
+        "answers": { "text": ["Practice and improve your skills by playing chess directly within ChatGPT."], "answer_start": [32] }
+    },
+    {
+        "id": "866f8b39-6f0d-4877-aef8-268329582d42",
+        "title": "Instacart - Order groceries from your nearby store",
+        "context": "Grocery shopping can be time-consuming. Save time by ordering your groceries directly within ChatGPT.",
+        "question": "How can Instacart make grocery shopping more convenient?",
+        "answers": { "text": ["Save time by ordering your groceries directly within ChatGPT."], "answer_start": [36] }
+    },
+    {
+        "id": "02aca060-82a3-4575-9f80-2df1a9a895d9",
+        "title": "Send Email - Send the perfect emails through ChatGPT",
+        "context": "Drafting emails can be a challenging task for many. Compose and send professional emails directly through ChatGPT.",
+        "question": "How can this plugin help with email composition?",
+        "answers": { "text": ["Compose and send professional emails directly through ChatGPT."], "answer_start": [47] }
+    },
+    {
+        "id": "e24cedfd-4520-4921-b34e-dfa9a1b5dc7e",
+        "title": "FiscalNote - Access real-time data sets for legal and political purposes",
+        "context": "Data-driven decision-making is crucial in legal and political fields. Access real-time data sets on legislation, regulation, and court cases within ChatGPT.",
+        "question": "What kind of data sets can be accessed using this plugin?",
+        "answers": { "text": ["Access real-time data sets on legislation, regulation, and court cases within ChatGPT."], "answer_start": [60] }
+    },
+    {
+        "id": "4e5cf697-cd5f-49f0-8948-cc8621c85e55",
+        "title": "DAN - Change ChatGPT’s personality",
+        "context": "Interactions with AI can often feel impersonal. Customize ChatGPT's personality for a more engaging and personalized experience.",
+        "question": "How can this plugin make ChatGPT interactions more personal?",
+        "answers": { "text": ["Customize ChatGPT's personality for a more engaging and personalized experience."], "answer_start": [43] }
+    },
+    {
+        "id": "c6241c0c-7806-4a8a-b7cb-2da2e070d831",
+        "title": "United Nations - Search through select UN documents",
+        "context": "Research on international matters often requires sifting through UN documents. Access select UN documents to improve your research efficiency.",
+        "question": "How can this plugin assist with international research?",
+        "answers": { "text": ["Access select UN documents to improve your research efficiency."], "answer_start": [59] }
+    },
+    {
+        "id": "abd768a8-c08a-42f5-aff8-d9caea1fb041",
+        "title": "Kraftful - Quickly get product-market fit, scale your user base and grow revenue",
+        "context": "Achieving product-market fit is a crucial milestone for startups. Utilize the Kraftful plugin for insights and strategies to grow your startup.",
+        "question": "What kind of insights can the Kraftful plugin provide?",
+        "answers": { "text": ["Utilize the Kraftful plugin for insights and strategies to grow your startup."], "answer_start": [56] }
+    },
+    {
+        "id": "20bebcae-95ae-4478-bd71-31f58109d9d0",
+        "title": "Golden - Customize to your needs",
+        "context": "Customization is key to a useful AI tool. Tailor your ChatGPT experience to meet your unique needs.",
+        "question": "How can this plugin enhance the ChatGPT experience?",
+        "answers": { "text": ["Tailor your ChatGPT experience to meet your unique needs."], "answer_start": [40] }
+    },
+    {
+        "id": "49047c29-9ed1-4363-95ef-a1d7f36e18a9",
+        "title": "Tutory - Access tutoring anytime, anywhere",
+        "context": "Tutoring services are often needed at inconvenient times. Access quality tutoring services anytime, anywhere within ChatGPT.",
+        "question": "When can users access tutoring services through this plugin?",
+        "answers": { "text": ["Access quality tutoring services anytime, anywhere within ChatGPT."], "answer_start": [46] }
+    },
+    {
+        "id": "9868de41-9bd9-4811-9e1f-f260c52696ff",
+        "title": "Shimmer: Track meals and get healthier options",
+        "context": "Imagine being able to track your meals and receive healthier meal options tailored to your preferences right within your chat. The Shimmer plugin enables users to manage their dietary habits and make healthier choices seamlessly.",
+        "question": "What does the Shimmer plugin enable users to do?",
+        "answers": { "text": ["The Shimmer plugin enables users to manage their dietary habits and make healthier choices seamlessly."], "answer_start": [77] }
+    },
+    {
+        "id": "c7d47f0d-3605-4344-ab50-5db0e8270cf6",
+        "title": "One Word Domain: Describe your business and get the perfect one word domain for it.",
+        "context": "As an entrepreneur starting a new venture, the One Word Domain plugin can help you come up with a catchy, one-word domain name that best describes your business, all while interacting with ChatGPT.",
+        "question": "What does the One Word Domain plugin assist with?",
+        "answers": { "text": ["The One Word Domain plugin can help you come up with a catchy, one-word domain name that best describes your business."], "answer_start": [46] }
+    },
+    {
+        "id": "8f2e14ee-4823-4adb-84da-44e4d695faff",
+        "title": "Redfin: Do housing market research for your next house or investment.",
+        "context": "Real estate investors can use the Redfin plugin to conduct comprehensive housing market research. From price trends to neighborhood demographics, this plugin can provide valuable insights, all within the ChatGPT interface.",
+        "question": "What insights can the Redfin plugin provide?",
+        "answers": { "text": ["From price trends to neighborhood demographics, this plugin can provide valuable insights."], "answer_start": [78] }
+    },
+    {
+        "id": "db88c36a-f497-469a-bd8a-602207446203",
+        "title": "Portfoliopilot: This is your all-in-one investing guide.",
+        "context": "Portfoliopilot can transform ChatGPT into a personal investment advisor. Users can get investment guidance, learn about different investment strategies, and make informed financial decisions right within their chat interface.",
+        "question": "What services does Portfoliopilot offer?",
+        "answers": { "text": ["Users can get investment guidance, learn about different investment strategies, and make informed financial decisions right within their chat interface."], "answer_start": [56] }
+    },
+    {
+        "id": "911a813c-1529-43f5-a025-299aecedf138",
+        "title": "Zillow: Search listing, home details and more",
+        "context": "Individuals looking for a new home can use the Zillow plugin to search listings, view home details, compare prices, and even schedule viewings, all within ChatGPT, simplifying the home buying process.",
+        "question": "What can individuals do using the Zillow plugin?",
+        "answers": { "text": ["Individuals can use the Zillow plugin to search listings, view home details, compare prices, and even schedule viewings, all within ChatGPT."], "answer_start": [35] }
+    },
+    {
+        "id": "8b169a84-00dc-4373-9cd6-eaf184596e1d",
+        "title": "Giftwrap: Get gift ideas, shop them and ship it all in one platform.",
+        "context": "With the Giftwrap plugin, users can describe the person they want to give a gift to and receive personalized gift recommendations. They can even shop for the gift and arrange shipping, all within their ChatGPT interface.",
+        "question": "What can users do with the Giftwrap plugin?",
+        "answers": { "text": ["Users can describe the person they want to give a gift to and receive personalized gift recommendations. They can even shop for the gift and arrange shipping, all within their ChatGPT interface."], "answer_start": [22] }
+    },
+    {
+        "id": "8b18e5f1-eb70-414b-bbda-be042cc1496b",
+        "title": "Tasty: Discover new recipes and meal plans that work for you.",
+        "context": "Food enthusiasts can use the Tasty plugin to discover new recipes, plan meals, and even get personalized meal suggestions based on their dietary preferences and restrictions, making cooking a more enjoyable experience.",
+        "question": "What can food enthusiasts do with the Tasty plugin?",
+        "answers": { "text": ["Food enthusiasts can use the Tasty plugin to discover new recipes, plan meals, and even get personalized meal suggestions based on their dietary preferences and restrictions."], "answer_start": [22] }
+    },
+    {
+        "id": "47a9b05a-8cad-4a33-9b41-ac4022723c63",
+        "title": "Hauling Buddies: Find trusted animal transporters in your area",
+        "context": "Pet owners moving homes or needing to transport their pets can use the Hauling Buddies plugin to find reliable and trusted animal transport services in their area, ensuring their pets' safety and comfort.",
+        "question": "What can pet owners use the Hauling Buddies plugin for?",
+        "answers": { "text": ["Pet owners can use the Hauling Buddies plugin to find reliable and trusted animal transport services in their area."], "answer_start": [50] }
+    },
+    {
+        "id": "7d51bdde-06ab-4b2c-b05b-01f103db1a99",
+        "title": "Tablelog: Find restaurants in Japan with availability at any moment",
+        "context": "Travelers in Japan can use the Tablelog plugin to find restaurants with real-time availability, making dining out more convenient and enjoyable.",
+        "question": "What can travelers in Japan do with the Tablelog plugin?",
+        "answers": { "text": ["Travelers in Japan can use the Tablelog plugin to find restaurants with real-time availability."], "answer_start": [21] }
+    },
+    {
+        "id": "edfb4a97-1eba-4225-8382-08c6290e3c23",
+        "title": "Yabble - Create surveys, collect data and analyze",
+        "context": "Researchers can utilize the Yabble plugin to design and distribute surveys, collect data, and even perform initial data analysis, all within ChatGPT, making research processes more efficient.",
+        "question": "What can researchers do with the Yabble plugin?",
+        "answers": { "text": ["Researchers can utilize the Yabble plugin to design and distribute surveys, collect data, and even perform initial data analysis, all within ChatGPT."], "answer_start": [0] }
+    },
+    {
+        "id": "5853e094-56f5-4696-a310-d77d910c7e9a",
+        "title": "Algorithma - Virtual life in an immersive simulator",
+        "context": "With the Algorithma plugin, users can simulate life scenarios, explore different outcomes, and make more informed decisions in their real lives, all within the immersive environment provided by ChatGPT.",
+        "question": "What can users do with the Algorithma plugin?",
+        "answers": { "text": ["Users can simulate life scenarios, explore different outcomes, and make more informed decisions in their real lives, all within the immersive environment provided by ChatGPT."], "answer_start": [0] }
+    },
+    {
+        "id": "eb130d76-2c2a-4379-923f-c0c808513fbe",
+        "title": "Vivian Health - Healthcare job in the area you want",
+        "context": "Healthcare professionals seeking new opportunities can use the Vivian Health plugin feature. By simply stating their job preferences, location, and specialty, they can get a list of suitable job openings in their desired area, all within their conversation with ChatGPT.",
+        "question": "How can healthcare professionals use the Vivian Health plugin?",
+        "answers": { "text": ["By simply stating their job preferences, location, and specialty, they can get a list of suitable job openings in their desired area, all within their conversation with ChatGPT."], "answer_start": [56] }
+    },
+    {
+        "id": "4bc716f9-640a-4926-84b6-50d8a8d1be32",
+        "title": "CreatiCode - Display scratch programs as images & write 2D/3D programs",
+        "context": "Educators teaching programming can leverage the CreatiCode plugin with ChatGPT to aid their lessons. Students could write simple Scratch programs within the chat, display them as images for visual aid, and even explore more complex 2D and 3D programming concepts.",
+        "question": "What can educators and students do with the CreatiCode plugin?",
+        "answers": { "text": ["Students could write simple Scratch programs within the chat, display them as images for visual aid, and even explore more complex 2D and 3D programming concepts."], "answer_start": [57] }
+    },
+    {
+        "id": "ff38e3eb-c918-4858-b1df-7cfb77a05bbd",
+        "title": "Argil Ai - Generate images in ChatGPT",
+        "context": "Artists and graphic designers can leverage the Argil Ai plugin to generate images while conversing with ChatGPT. By describing the image they have in mind, the plugin could generate a visual representation, offering a unique, creative tool within the chat interface.",
+        "question": "How can artists and graphic designers use the Argil Ai plugin?",
+        "answers": { "text": ["By describing the image they have in mind, the plugin could generate a visual representation, offering a unique, creative tool within the chat interface."], "answer_start": [59] }
+    },
+    {
+        "id": "d4c361f8-878d-4fbb-945b-51b887e28167",
+        "title": "SEO CORE AI - Optimize your website's SEO",
+        "context": "Picture this: you're a budding entrepreneur with a small business, and you just launched your website. However, you're unsure about how SEO-friendly it is. This is where the SEO CORE AI plugin comes in. It uses AI to analyze your website's SEO and gives you comprehensive suggestions on how to improve it.",
+        "question": "What does the SEO CORE AI plugin offer?",
+        "answers": { "text": ["It uses AI to analyze your website's SEO and gives you comprehensive suggestions on how to improve it."], "answer_start": [107] }
+    },
+    {
+        "id": "6d707b18-d017-4ae7-bb04-5d73e85f5d6c",
+        "title": "MixerBox News - Staying informed",
+        "context": "Imagine you’re a busy professional who hardly has the time to catch up on current affairs. With the MixerBox News plugin, you can now have the latest news delivered to you right within ChatGPT.",
+        "question": "What does the MixerBox News plugin offer busy professionals?",
+        "answers": { "text": ["With the MixerBox News plugin, you can now have the latest news delivered to you right within ChatGPT."], "answer_start": [61] }
+    },
+    {
+        "id": "e9cc767b-9520-4e2f-a9d7-eedb72e109be",
+        "title": "Podcast search - Discovering new podcasts",
+        "context": "Are you an avid podcast listener always on the lookout for new content? With the Podcast search plugin, you can easily explore podcasts from Podcastindex, finding your next binge-listen effortlessly.",
+        "question": "What can you do with the Podcast search plugin?",
+        "answers": { "text": ["With the Podcast search plugin, you can easily explore podcasts from Podcastindex, finding your next binge-listen effortlessly."], "answer_start": [58] }
+    },
+    {
+        "id": "8acec926-ba8a-46c1-a7c2-c0f849357d41",
+        "title": "Boolio - Analyzing global stock values",
+        "context": "Succeeding in the stock market requires you to keep a close eye on how the prices are moving. The Boolio plugin makes it easy for you to analyze global stock values, helping you make more informed investment decisions.",
+        "question": "What does the Boolio plugin help you with?",
+        "answers": { "text": ["The Boolio plugin makes it easy for you to analyze global stock values, helping you make more informed investment decisions."], "answer_start": [69] }
+    },
+    {
+        "id": "f76d72be-635f-4755-9c5a-c337663438ca",
+        "title": "Tomorrow Io - Planning according to the weather",
+        "context": "Let’s say you’re planning a weekend outing, but you’re unsure about the weather. The Tomorrow Io plugin can give you the weather forecast, and help you plan and adapt your activities accordingly.",
+        "question": "How can the Tomorrow Io plugin assist you in planning a weekend outing?",
+        "answers": { "text": ["The Tomorrow Io plugin can give you the weather forecast, and help you plan and adapt your activities accordingly."], "answer_start": [72] }
+    },
+    {
+        "id": "fe7c4b70-1c0e-445b-9b8a-3314b6ccd08e",
+        "title": "Open Lecture - Accessing academic content",
+        "context": "Imagine you’re a student struggling with a specific topic. The Open Lecture plugin helps you discover and access specific moments in open lectures, aiding your learning process.",
+        "question": "How does the Open Lecture plugin aid your learning process?",
+        "answers": { "text": ["The Open Lecture plugin helps you discover and access specific moments in open lectures, aiding your learning process."], "answer_start": [45] }
+    },
+    {
+        "id": "77e103fc-55d5-45a8-aaa7-053084715763",
+        "title": "ChatWithVideo - Interacting with YouTube videos",
+        "context": "You’re a tech enthusiast looking to understand the latest gadgets through reviews on YouTube. The ChatWithVideo plugin allows you to ask questions, analyze, and parse through YouTube videos, enhancing your understanding.",
+        "question": "What can you do with the ChatWithVideo plugin?",
+        "answers": { "text": ["The ChatWithVideo plugin allows you to ask questions, analyze, and parse through YouTube videos, enhancing your understanding."], "answer_start": [67] }
+    },
+    {
+        "id": "c22d90e8-f3e4-40e8-a3d7-e53ed6cafd5e",
+        "title": "GameBase - Getting gaming info",
+        "context": "You’re a gamer looking for information about a new game. The GameBase plugin helps you chat and get game info right within ChatGPT, making your search process easier.",
+        "question": "What does the GameBase plugin do?",
+        "answers": { "text": ["The GameBase plugin helps you chat and get game info right within ChatGPT, making your search process easier."], "answer_start": [47] }
+    },
+    {
+        "id": "351d547c-1535-4944-b629-8896d850a0c7",
+        "title": "Local by GoodCall: Supporting local businesses",
+        "context": "Let’s say you’ve just moved to a new neighborhood and want to support local businesses. The Local by GoodCall plugin helps you discover restaurants, shops, and services near you.",
+        "question": "What does the Local by GoodCall plugin help you discover?",
+        "answers": { "text": ["The Local by GoodCall plugin helps you discover restaurants, shops, and services near you."], "answer_start": [86] }
+    },
+    {
+        "id": "50ad15ea-bd04-4922-baa4-fe24bb997fbd",
+        "title": "Statis Fund Finance: Analyzing financial data",
+        "context": "Suppose you’re a finance professional who needs up-to-date financial data. The Statis Fund Finance plugin offers a financial data tool for analyzing equities, making your job much easier.",
+        "question": "What type of data can you analyze with the Statis Fund Finance plugin?",
+        "answers": { "text": ["The Statis Fund Finance plugin offers a financial data tool for analyzing equities."], "answer_start": [62] }
+    },
+    {
+        "id": "1edf80d6-f9ab-49e1-8a45-728ac6da52e9",
+        "title": "Penrose Analyst: Staying informed on global affairs",
+        "context": "Perhaps you’re a policy analyst needing to keep abreast of global news and research papers. The Penrose Analyst plugin helps you search global news and research papers right within ChatGPT.",
+        "question": "What does the Penrose Analyst plugin help you search for?",
+        "answers": { "text": ["The Penrose Analyst plugin helps you search global news and research papers right within ChatGPT."], "answer_start": [68] }
+    },
+    {
+        "id": "3a393915-3d5a-48fd-9dd8-33dbab817903",
+        "title": "Currency Converter: Dealing with foreign currencies",
+        "context": "Imagine you’re planning a trip abroad and need to convert currencies based on current rates. The Currency Converter plugin makes this process straightforward and accurate.",
+        "question": "What does the Currency Converter plugin assist you with?",
+        "answers": { "text": ["The Currency Converter plugin makes this process straightforward and accurate."], "answer_start": [70] }
+    },
+    {
+        "id": "61088a40-c683-49bb-b49e-d7d46a8bf8be",
+        "title": "Creature Generator: Role playing game enhancement",
+        "context": "You’re a Dungeon Master preparing for the next game night. The Creature Generator plugin can create random creatures for use in your role-playing games, making your session more dynamic and unpredictable.",
+        "question": "What can the Creature Generator plugin create for role-playing games?",
+        "answers": { "text": ["The Creature Generator plugin can create random creatures for use in your role-playing games."], "answer_start": [53] }
+    },
+    {
+        "id": "2baf6889-6131-4d0a-aed8-d354cdd0466a",
+        "title": "Visla: Creating videos",
+        "context": "You’re a content creator and need to quickly generate a video for your social media platforms. The Visla plugin allows you to create a short video from public stock footage based on your chosen topic.",
+        "question": "What does the Visla plugin allow you to create?",
+        "answers": { "text": ["The Visla plugin allows you to create a short video from public stock footage based on your chosen topic."], "answer_start": [64] }
+    },
+    {
+        "id": "a8f3a850-3bd9-4aa5-b06d-cde2dddd2572",
+        "title": "ImageSearch: Visual inspiration and information",
+        "context": "Perhaps you’re a graphic designer in search of inspiration for your next project. The ImageSearch plugin can find and display images from Unsplash, providing you with a broad range of high-quality visuals.",
+        "question": "What can the ImageSearch plugin find and display?",
+        "answers": { "text": ["The ImageSearch plugin can find and display images from Unsplash, providing you with a broad range of high-quality visuals."], "answer_start": [62] }
+    },
+    {
+        "id": "4cff1683-d1f4-4d1f-b94c-6fd4e27117ad",
+        "title": "Xpapers: Academic research",
+        "context": "You’re a university student in need of scholarly articles for your research paper. The Xpapers plugin allows you to find real academic papers on arXiv, making your research process easier and more effective.",
+        "question": "Where does the Xpapers plugin find academic papers?",
+        "answers": { "text": ["The Xpapers plugin allows you to find real academic papers on arXiv."], "answer_start": [64] }
+    },
+    {
+        "id": "e31ebdaf-459f-45b4-a4b4-f661753b6713",
+        "title": "Tic Tac Toe: Quick gaming fun",
+        "context": "You’re in need of a quick break from work…. The Tic Tac Toe plugin in ChatGPT lets you engage in a quick game right within the chat, giving you a fun and simple diversion.",
+        "question": "What game can you play when you’re in need of a quick break from work?",
+        "answers": { "text": ["Tic Tac Toe"], "answer_start": [53] }
+    },
+    {
+        "id": "0141b3a0-e4ad-47e7-b80b-c17f0112aebb",
+        "title": "ChatSpot: Access to marketing data",
+        "context": "You’re a marketing professional in need of sales data, company research, and keyword analysis. The ChatSpot plugin gives you access to all this data within ChatGPT, significantly enhancing your workflow.",
+        "question": "What types of data can you access with the ChatSpot plugin?",
+        "answers": { "text": ["sales data, company research, and keyword analysis"], "answer_start": [50] }
+    },
+    {
+        "id": "1421ef2d-7dbf-4c31-bf92-ff97aa0dce39",
+        "title": "Klook: Planning travel experiences",
+        "context": "Let’s say you’re planning your dream vacation and looking for unique experiences, tours, hotels, and transport options. The Klook plugin makes this planning process convenient and enjoyable.",
+        "question": "What can the Klook plugin assist you with when planning a vacation?",
+        "answers": { "text": ["unique experiences, tours, hotels, and transport options"], "answer_start": [67] }
+    },
+    {
+        "id": "1bf48779-9cd6-48bc-9fd3-8478a2ca4ed9",
+        "title": "Magnetis: Digital wealth management",
+        "context": "Suppose you’re new to investing and need help managing your investments. The Magnetis plugin is a digital wealth manager that can guide you through your investment journey, making it less intimidating and more efficient.",
+        "question": "What does the Magnetis plugin serve as?",
+        "answers": { "text": ["a digital wealth manager"], "answer_start": [71] }
+    },
+    {
+        "id": "e4032de3-b5d9-4f7a-8ddb-fce0cc16395c",
+        "title": "SEO app: SEO made easy",
+        "context": "Imagine you’re a blogger, wanting to optimize your blog posts for SEO. The SEO app plugin acts as your personal SEO assistant, guiding you through the process of making your content more SEO-friendly.",
+        "question": "What does the SEO app plugin act as?",
+        "answers": { "text": ["your personal SEO assistant"], "answer_start": [69] }
+    },
+    {
+        "id": "b2796161-37f1-4120-bfbb-d93a9f21ee78",
+        "title": "Abridged Due Diligence: Financial analysis",
+        "context": "Let’s say you’re a financial analyst needing to conduct due diligence for potential investments. The Abridged Due Diligence plugin allows you to search through recent SEC filings, providing links to deeper analysis to make your research more comprehensive.",
+        "question": "What can you search through using the Abridged Due Diligence plugin?",
+        "answers": { "text": ["recent SEC filings"], "answer_start": [103] }
+    },
+    {
+        "id": "c6743d96-ba2b-4573-b6bd-c56187d18238",
+        "title": "CreditYelp: Financial calculations",
+        "context": "Perhaps you’re a homeowner planning to refinance your mortgage. The CreditYelp plugin provides you with access to essential financial calculators, helping you make informed decisions.",
+        "question": "What does the CreditYelp plugin provide access to?",
+        "answers": { "text": ["essential financial calculators"], "answer_start": [76] }
+    }
+]

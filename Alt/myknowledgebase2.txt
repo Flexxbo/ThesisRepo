@@ -1,0 +1,179 @@
+import { useState } from "react";
+
+// components/SearchComponent.js
+import styles from "./myknowledgbase.module.css";
+import SearchComponent from "@/components/SearchComponent";
+
+function Myknowledgebase() {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [textChunks, setTextChunks] = useState([]);
+  const [openAIResponse, setOpenAIResponse] = useState("");
+
+  const handleSearch = async () => {
+    try {
+      console.log("searchQuery:", searchQuery);
+      console.log("textChunks:", textChunks);
+      const response = await fetch("/api/searchhandler", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ query: searchQuery }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error);
+      }
+      // Update the textChunks state with the data received
+      setTextChunks(data.data);
+
+      // Here, you can handle the response. For example:
+      console.log(data);
+    } catch (error) {
+      console.error("Error searching:", error.message);
+    }
+
+    /*Alter Prompt, der falsche Antworten generiert hat:
+      let prompt = `
+      Agiere als Supportmitarbeiter und beantworte die Anfrage eines Kunden [User Query]. 
+      Nutze dazu die folgenden Textbausteine [Relevant Text Chunks]. 
+      Wenn die Antwort nicht in den Textbausteinen enthalten ist, antworte mit:"Das weiß ich leider nicht."
+      User Query: ${searchQuery}\nRelevant Text Chunks:\n`;
+      textChunks.forEach((chunk, index) => {
+        prompt += `${index + 1}. ${chunk.content}\n`;
+      });
+ */
+    /*
+    const generatePrompt = () =>  {
+      let prompt = `
+      Agiere als Supportmitarbeiter der Sprachlernplattform Preply und beantworte Anfragen von Kunden ausschließlich im Kontext der Sprachlernplattform Preply [User Query]. 
+      Nutze dazu die folgenden Text Chunks [Relevant Text Chunks]. Nutze ausschließlich die Textbausteine, um die Anfrage zu beantworten. Nutze keine anderen Informationen, die du über Preply kennst.
+      Wenn die Antwort nicht explizit in den Textbausteinen enthalten ist oder wenn keine Textbausteine in diesem Prompt sind, dann antworte mit exakt diesem Satz:"Das weiß ich leider nicht."
+      User Query: ${searchQuery}
+      \nText Chunks:\n`;
+      textChunks.forEach((chunk, index) => {
+        prompt += `Chunk ${index}: ${index + 1}. ${chunk.content}\n`;
+      });
+      return prompt;
+    };*/
+/*
+    const generatePrompt = () => {
+      let prompt = `
+      Agiere als Supportmitarbeiter der Sprachlernplattform Preply.
+      Gehe wie folgt vor:
+      1. Lies die Anfrage des Kunden [User Query].
+      2. Lese die Text Chunks.
+      3. Ist die Antwort auf die Frage in den Text Chunks enthalten. Schreibe (Ja!/Teilweise!/Nein!), dann:
+      4a. Wenn die Antwort enthalten ist. Gib die Antwort aus. 
+      4b. Wenn die Antwort Teilweise vorhanden ist, dann schreibe exakt:"Die Antwort ist teilweise vorhanden." und stoppe. 
+      4c. Wenn die Antwort nicht enthalten ist, antworte mit:"Das weiß ich leider nicht."
+      User Query: ${searchQuery}
+      \nText Chunks:\n`;
+      textChunks.forEach((chunk, index) => {
+        prompt += `Chunk ${index}: ${index + 1}. ${chunk.content}\n`;
+      });
+      return prompt;
+    };
+    */
+    const generatePrompt = () => {
+      let prompt = `
+
+      1. Read the customer's request [User Query].
+      2. Read the text chunks [Text Chunks].
+      3. Is the answer to the question contained in the text chunks?
+      4a. If the answer is included. Output the answer.
+      4b. If the answer is partial, then write exactly: "The answer is partial." and stop.
+      4c. If the answer isn't included, reply with "Sorry, I don't know."
+      User Query: ${searchQuery}
+      \nText Chunks:\n`;
+      textChunks.forEach((chunk, index) => {
+        prompt += `Chunk ${index}: ${index + 1}. ${chunk.content}\n`;
+      });
+      return prompt;
+    };
+    
+    const prompt = generatePrompt();
+    console.log("prompt", prompt);
+    //console.log("OPENAIAPI KEY:", process.env.NEXT_PUBLIC_OPENAI_API_KEY);
+    //console.log("OPENAIAPI KEY:", process.env.OPENAI_API_KEY);
+
+    try {
+      /*
+      const openAIResponse = await fetch(
+        "https://api.openai.com/v1/chat/completions",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            //Authorization: `Bearer ${process.env.NEXT_PUBLIC_OPENAI_API_KEY}`,
+            Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
+          },
+          body: JSON.stringify({
+            model: "gpt-3.5-turbo-16k",
+            messages: [
+              { role: "assistant", content: prompt },
+              { role: "user", content: searchQuery },
+            ],
+            max_tokens: 5000,
+            temperature: 0,
+            // Add other parameters like max_tokens, etc., as needed
+          }),
+        }
+      );*/
+
+      const openAIResponse = await fetch("/api/openaiconnect", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          prompt: prompt,
+          searchQuery: searchQuery,
+        }),
+      });
+
+      const openAIData = await openAIResponse.json();
+      setOpenAIResponse(openAIData.choices[0]?.message?.content || "");
+      // Handle the response from OpenAI
+      //console.log("openAIData", openAIData);
+      console.log(
+        "openAIData.choices[0]?.message?.content",
+        openAIData.choices[0]?.message?.content
+      );
+      //console.log("openAIResponse", openAIResponse);
+    } catch (error) {
+      console.error("Error sending prompt to OpenAI:", error.message);
+    }
+  };
+
+  return (
+    <div className={styles.fullscreenDiv}>
+      <h1 className={styles.header1}>My Knowledge Base</h1>
+      <p className={styles.paragraph}>Welcome to all my knowledge!</p>
+
+      <SearchComponent
+        value={searchQuery}
+        onChange={setSearchQuery}
+        onSearch={handleSearch}
+      />
+
+      {/* Display the OpenAI response */}
+      <div className={styles.responseBox}>{openAIResponse}</div>
+      {/* Display text chunks */}
+      <div className={styles.textChunksContainer}>
+        {textChunks.map((chunk, index) => (
+          <div key={index} className={styles.textChunkCard}>
+            <div className={styles.textChunkImage} dangerouslySetInnerHTML={{ __html: chunk.content }}></div>
+            {/*  Without images:
+               <div key={index} className={styles.textChunkCard}>
+                    {chunk.content} */}
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default Myknowledgebase;

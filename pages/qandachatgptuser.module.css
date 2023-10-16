@@ -1,0 +1,79 @@
+.fullscreenDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f4f4f4; /* Matching light background color */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: 'Arial', sans-serif; /* Same font-family */
+}
+
+.header1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.paragraph {
+  font-size: 1rem;
+  color: #555;
+}
+
+.responseContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px; /* Consistent gap */
+}
+
+.responseBox {
+  padding: 35px;
+  border: 1px solid #ccc; /* Lighter border color */
+  border-radius: 10px; /* Consistent border-radius */
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Consistent box-shadow */
+  max-width: 30%;
+  width: 30%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Consistent transition */
+}
+
+.responseBox:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.textChunksContainer {
+  margin-top: 30px;
+  display: flex;
+  overflow: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.textChunkCard {
+  margin: auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 64%;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.textChunkCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.textChunkImage img {
+  max-width: 300px;
+  height: auto;
+  margin: 10px 0;
+  display: block;
+  border: #ccc solid 1px; /* Lighter border color */
+}

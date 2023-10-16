@@ -1,0 +1,35 @@
+{
+  "name": "nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/env": "^13.4.13",
+    "@supabase/supabase-js": "^2.21.0",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "end": "^0.2.3",
+    "endent": "^2.1.0",
+    "env": "^0.0.2",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "eventsource-parser": "^1.0.0",
+    "fs-extra": "^11.1.1",
+    "gpt-3-encoder": "^1.1.4",
+    "he": "^1.2.0",
+    "html-to-text": "^9.0.5",
+    "next": "13.4.12",
+    "openai": "^3.3.0",
+    "pdf-parse": "^1.1.1",
+    "pdfjs-dist": "^3.9.179",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "uuid": "^9.0.1"
+  }
+}
